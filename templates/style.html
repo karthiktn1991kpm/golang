@@ -1,0 +1,163 @@
+{{ define "style"}}
+<style>
+    /*
+DEMO STYLE
+*/
+
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #fafafa;
+}
+
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1em;
+  font-weight: 300;
+  line-height: 1.7em;
+  color: #999;
+}
+
+
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+
+.topbar{
+  margin-left: 230px;
+  height: 55px;
+  text-align: center;
+  background: hsl(212, 91%, 48%);
+  color: #fff; 
+}
+
+.inputwithicon input{
+  padding-left: 5px;
+  border-radius: 0px 0px 0px 0px;
+}
+.inputwithicon select{
+  padding-left: 5px;
+  border-radius: 0px 0px 0px 0px;
+}
+.inputwithicon i{
+  position: absolute;
+  left: 3;
+  top: 33px;
+  height: 37px;
+  padding:9px 8px;
+  color: #aaa;
+  width: 38px;
+}
+.inputwithicon input:focus{
+  color: dodgerblue;
+}
+
+.inputwithicon.inputiconbg i{
+  background-color: #aaa;
+  color: #fff;
+  padding:9px 4px;
+  border-radius:0px 0 0 0px;
+}
+.lables{
+  color: blueviolet;
+}
+.tnnavbar{
+  background-color: #6d7fcc;
+}
+
+.inputwithiconlist i{
+  position: absolute;
+  left: 3;
+  top: 0px;
+  height: 34px;
+  padding:9px 8px;
+  color: #aaa;
+  width: 38px;
+  border-radius: 0px 0px 0px 0px;
+}
+.inputwithiconlist.inputiconbglist i{
+  background-color: #aaa;
+  color: #fff;
+  padding:9px 4px;
+  border-radius: 0px 0px 0px 0px;
+}
+.inputwithiconlist input{
+  padding-left: 40px;
+  border-radius: 0px 0px 0px 0px;
+}
+.inputwithiconlist select{
+  padding-left: 40px;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.settingsicon i{
+  height: 25px;
+  width: 30px;
+}
+.tablescroll{
+  height: 518px;
+  overflow: scroll;
+}
+.modal-header{
+  background-color: violet;
+  height: 50px;
+}
+.card-header{
+  background-color: violet;
+  height: 50px;
+}
+.modal-body{
+  background-color:white;
+
+}
+#fontenglish {
+  font-family: Lucida Sans Typewriter;
+  font-weight: bold;
+  font-size: 20px;
+}
+#fontsanskrit {
+  font-family: Arial Unicode MS;
+  font-weight: bold;
+  font-size: 25px;
+}
+#fontnumber {
+  font-family: DV-AakashExBold;
+  font-size: 20px;
+}
+.selectBox {
+  position: relative;
+
+}
+.selectBox select {
+  width: 100%;
+}
+
+.overSelect {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  
+}
+footer {
+      background-color: #555;
+      color: white;
+      padding: 5px;
+    }
+
+.btn{
+  border-radius: 1px 1px;
+}
+
+</style>
+{{ end }}
